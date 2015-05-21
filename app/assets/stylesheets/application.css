@@ -10,6 +10,9 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *
+ * self = this file, tree = all other css files combined. Order can be changed
+ * So other files or this has precedence.
  *= require_tree .
  *= require_self
  */
