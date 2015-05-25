@@ -15,6 +15,7 @@ class UsersController < ApplicationController
     if @user.save
       # if user.save == true, handle a successful save
       # flash a temporary message. success == successful result
+      log_in @user
       flash[:success] = "Welcome to the Sample App!"
       # automatically infers @user == user_url(@user)
       redirect_to @user
