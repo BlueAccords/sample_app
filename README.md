@@ -20,3 +20,6 @@ cloud 9 memory issues
   Try to kill all spring process . First you can see all of them like: ps aux
 
   and then you can kill like this: pkill -f "spring app", or by pid : kill -9 1111(your PID)
+  
+Add spring app to .git ignore file
+  on github.
