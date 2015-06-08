@@ -1,0 +1,3 @@
+<!--Updates the html inside the given css class tags-->
+$("#follow_form").html("<%= escape_javascript(render('users/unfollow')) %>");
+$("#followers").html('<%= @user.followers.count %>');
